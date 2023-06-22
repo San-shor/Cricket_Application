@@ -1,0 +1,59 @@
+{
+  "cricket": [
+    {
+      "teams": [
+        "Bangladesh",
+        "India"
+      ],
+      "id": 3,
+      "match": []
+    },
+    {
+      "teams": [
+        "Pakistan",
+        "Australia"
+      ],
+      "id": 6
+    },
+    {
+      "teams": [
+        "Bangladesh",
+        "India"
+      ],
+      "id": 8
+    },
+    {
+      "teams": [
+        "Australia",
+        "Pakistan"
+      ],
+      "id": 9
+    }
+  ],
+  "teams": [
+    {
+      "team": "Bangladesh",
+      "id": 1
+    },
+    {
+      "run": 6,
+      "id": 2
+    },
+    {
+      "team": "Australia",
+      "id": 3
+    },
+    {
+      "team": "Pakistan",
+      "id": 4
+    },
+    {
+      "run": 6,
+      "id": 5
+    },
+    {
+      "team": "England",
+      "id": 6
+    }
+  ]
+}
