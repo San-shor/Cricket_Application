@@ -10,7 +10,7 @@ const Play = () => {
   const { id } = useParams();
   const fetchTossWinner=async()=>{
     try {
-        const result=await fetch(`http://localhost:4000/teams/${id}`)
+        const result=await fetch(`https://cricket-server-kxl8.onrender.com//teams/${id}`)
         const data=await result.json()
         setToss(data)
     } catch (error) {
@@ -34,7 +34,7 @@ const Play = () => {
     setRuns([...runs, run]);
     setBallCount(ballCount + 1);
     try {
-        const response = await fetch(`http://localhost:4000/teams/${id}`, {
+        const response = await fetch(`https://cricket-server-kxl8.onrender.com//teams/${id}`, {
           method: "PUT",
           headers: {
             "Content-Type": "application/json",

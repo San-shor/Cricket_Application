@@ -4,12 +4,12 @@ const AllMatch = () => {
   const [match, setMatch] = useState([]);
 
   const fetchMatch = async () => {
-    const result = await fetch("http://localhost:4000/cricket");
+    const result = await fetch("https://cricket-server-kxl8.onrender.com//cricket");
     const data = await result.json();
     setMatch(data);
   };
   const deleteMatch = async (id) => {
-    await fetch(`http://localhost:4000/cricket/${id}`, {
+    await fetch(`https://cricket-server-kxl8.onrender.com//cricket/${id}`, {
       method: "DELETE",
     });
     fetchMatch(); 

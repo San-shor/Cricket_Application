@@ -28,7 +28,7 @@ const Toss = ({ setSelectedTeams,teams }) => {
     };
   
     try {
-      fetch("http://localhost:4000/cricket", {
+      fetch("https://cricket-server-kxl8.onrender.com//cricket", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

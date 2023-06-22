@@ -11,7 +11,7 @@ const TossResult = ({ teams }) => {
   };
   const handlePlay = async () => {
     try {
-      const response = await fetch("http://localhost:4000/teams");
+      const response = await fetch("https://cricket-server-kxl8.onrender.com//teams");
       const data = await response.json()
       console.log(data,selectedTeam)
       let id
