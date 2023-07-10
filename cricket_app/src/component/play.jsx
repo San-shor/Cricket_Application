@@ -10,7 +10,7 @@ const Play = () => {
   const { id } = useParams();
   const fetchTossWinner=async()=>{
     try {
-        const result=await fetch(`https://cricket-server-kxl8.onrender.com//teams/${id}`)
+        const result=await fetch(`https://cricket-server-kxl8.onrender.com/teams/${id}`)
         const data=await result.json()
         setToss(data)
     } catch (error) {
